@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="KsY-im-9nZ">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="793"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -25,9 +25,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="KsY-im-9nZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8bS-hC-uOj"/>
-                            <constraint firstAttribute="bottom" secondItem="KsY-im-9nZ" secondAttribute="bottom" id="KYj-06-rbU"/>
+                            <constraint firstAttribute="bottom" secondItem="KsY-im-9nZ" secondAttribute="bottom" id="GWo-N3-Dea"/>
                             <constraint firstItem="KsY-im-9nZ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dSm-DQ-RbS"/>
-                            <constraint firstItem="KsY-im-9nZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="q48-S2-LK9"/>
+                            <constraint firstItem="KsY-im-9nZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="rzy-7U-HKR"/>
                         </constraints>
                     </view>
                     <connections>

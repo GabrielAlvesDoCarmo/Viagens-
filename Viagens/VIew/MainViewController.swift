@@ -11,14 +11,19 @@ class MainViewController: UIViewController {
     @IBOutlet weak var viagensTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        viagensTableView.dataSource = self
-        viagensTableView.delegate = self
+        configTableView()
         view.backgroundColor = UIColor(
             red: 30.0/255.0,
             green: 59.0/255,
             blue: 119/255,
             alpha: 1
         )
+    }
+    
+    func configTableView(){
+        viagensTableView.register(UINib(nibName: "ViagemTableViewCell", bundle: nil), forCellReuseIdentifier:"ViagemTableViewCell" )
+        viagensTableView.dataSource = self
+        viagensTableView.delegate = self
     }
 
 }
