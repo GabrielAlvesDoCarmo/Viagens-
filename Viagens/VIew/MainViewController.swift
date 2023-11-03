@@ -22,6 +22,7 @@ class MainViewController: UIViewController {
     
     func configTableView(){
         viagensTableView.register(UINib(nibName: "ViagemTableViewCell", bundle: nil), forCellReuseIdentifier:"ViagemTableViewCell" )
+        viagensTableView.register(UINib(nibName: "OfertaTableViewCell", bundle: nil), forCellReuseIdentifier: "OfertaTableViewCell")
         viagensTableView.dataSource = self
         viagensTableView.delegate = self
     }

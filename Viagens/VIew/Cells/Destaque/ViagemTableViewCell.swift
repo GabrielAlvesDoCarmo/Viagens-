@@ -39,7 +39,9 @@ class ViagemTableViewCell: UITableViewCell {
             let hospedes = numeroHospedes == 1 ? "Pessoa" : "Pessoas"
             qutPeoleLabel.text = "\(numeroDeDias) \(diarias) - \(numeroHospedes) \(hospedes)"
         }
-        
+        DispatchQueue.main.async {
+            self.backgrounCellView.addSombra()
+        }
     }
     
 }

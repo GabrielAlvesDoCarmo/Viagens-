@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="OfertaTableViewCell" id="KGk-i7-Jjw" customClass="OfertaTableViewCell" customModule="Viagens">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="385"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM" customClass="OfertaTableViewCell" customModule="Viagens" customModuleProvider="target">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="385"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="1Gd-h9-YXY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="385"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Da1-dm-Kti">
+                                <rect key="frame" x="0.0" y="0.0" width="155" height="385"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CnZ-rs-rms">
+                                        <rect key="frame" x="0.0" y="0.0" width="155" height="170"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="170" id="mNo-8g-kdZ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="YhJ-QE-6fY">
+                                        <rect key="frame" x="10" y="180" width="135" height="86.666666666666686"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AÉREO + HOTEL" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X3f-5g-E0w">
+                                                <rect key="frame" x="0.0" y="0.0" width="135" height="14"/>
+                                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="10"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gramado + Rota do chocolate" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Za1-4W-JrD">
+                                                <rect key="frame" x="0.0" y="16.999999999999996" width="135" height="33.666666666666657"/>
+                                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A partir de :  R$ 2.500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ev5-Bs-oBy">
+                                                <rect key="frame" x="0.0" y="53.666666666666657" width="135" height="14"/>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="10"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="MGb-wK-ace">
+                                                <rect key="frame" x="0.0" y="70.666666666666657" width="135" height="16"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 569" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RQh-2P-9Wh">
+                                                        <rect key="frame" x="0.0" y="0.0" width="67.666666666666671" height="16"/>
+                                                        <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="13"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="em até 12x" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jyS-jx-3Rg">
+                                                        <rect key="frame" x="67.666666666666686" y="0.0" width="67.333333333333314" height="16"/>
+                                                        <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="11"/>
+                                                        <color key="textColor" systemColor="systemIndigoColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="YhJ-QE-6fY" firstAttribute="top" secondItem="CnZ-rs-rms" secondAttribute="bottom" constant="10" id="7hz-R8-5PP"/>
+                                    <constraint firstAttribute="width" constant="155" id="JZE-y2-G9D"/>
+                                    <constraint firstItem="YhJ-QE-6fY" firstAttribute="leading" secondItem="Da1-dm-Kti" secondAttribute="leading" constant="10" id="Wqd-jb-Xao"/>
+                                    <constraint firstAttribute="trailing" secondItem="YhJ-QE-6fY" secondAttribute="trailing" constant="10" id="YsK-mT-ZX8"/>
+                                    <constraint firstAttribute="trailing" secondItem="CnZ-rs-rms" secondAttribute="trailing" id="oV4-F7-fGU"/>
+                                    <constraint firstItem="CnZ-rs-rms" firstAttribute="leading" secondItem="Da1-dm-Kti" secondAttribute="leading" id="qdw-CP-YeO"/>
+                                    <constraint firstItem="CnZ-rs-rms" firstAttribute="top" secondItem="Da1-dm-Kti" secondAttribute="top" id="ud6-zG-Uz7"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Emr-d1-ieG">
+                                <rect key="frame" x="165" y="0.0" width="155" height="385"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VXr-Jt-fZ3">
+                                        <rect key="frame" x="0.0" y="0.0" width="155" height="170"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="170" id="EU1-Wv-ss3"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="8NF-hZ-kY3">
+                                        <rect key="frame" x="10" y="180" width="135" height="86.666666666666686"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AÉREO + HOTEL" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iCw-f4-4by">
+                                                <rect key="frame" x="0.0" y="0.0" width="135" height="14"/>
+                                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Semibold" family="Kohinoor Devanagari" pointSize="10"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gramado + Rota do chocolate" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ga-JU-zDY">
+                                                <rect key="frame" x="0.0" y="16.999999999999996" width="135" height="33.666666666666657"/>
+                                                <fontDescription key="fontDescription" name="KohinoorDevanagari-Regular" family="Kohinoor Devanagari" pointSize="12"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A partir de :  R$ 2.500" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cU-Rz-bo4">
+                                                <rect key="frame" x="0.0" y="53.666666666666657" width="135" height="14"/>
+                                                <fontDescription key="fontDescription" name="KohinoorTelugu-Regular" family="Kohinoor Telugu" pointSize="10"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="IQh-8H-IJL">
+                                                <rect key="frame" x="0.0" y="70.666666666666657" width="135" height="16"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 569" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FpH-JQ-6Nj">
+                                                        <rect key="frame" x="0.0" y="0.0" width="67.666666666666671" height="16"/>
+                                                        <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="13"/>
+                                                        <color key="textColor" systemColor="systemOrangeColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="em até 12x" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrD-tQ-xNk">
+                                                        <rect key="frame" x="67.666666666666657" y="0.0" width="67.333333333333343" height="16"/>
+                                                        <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="11"/>
+                                                        <color key="textColor" systemColor="systemIndigoColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="155" id="3dc-MV-EaD"/>
+                                    <constraint firstItem="8NF-hZ-kY3" firstAttribute="leading" secondItem="Emr-d1-ieG" secondAttribute="leading" constant="10" id="HXZ-JF-LIg"/>
+                                    <constraint firstItem="8NF-hZ-kY3" firstAttribute="top" secondItem="VXr-Jt-fZ3" secondAttribute="bottom" constant="10" id="PGu-9Z-J9C"/>
+                                    <constraint firstAttribute="trailing" secondItem="8NF-hZ-kY3" secondAttribute="trailing" constant="10" id="Tdl-hu-oBe"/>
+                                    <constraint firstItem="VXr-Jt-fZ3" firstAttribute="top" secondItem="Emr-d1-ieG" secondAttribute="top" id="Vy4-uq-a0p"/>
+                                    <constraint firstItem="VXr-Jt-fZ3" firstAttribute="leading" secondItem="Emr-d1-ieG" secondAttribute="leading" id="W51-B2-wuW"/>
+                                    <constraint firstAttribute="trailing" secondItem="VXr-Jt-fZ3" secondAttribute="trailing" id="mTb-Y5-XSq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="1Gd-h9-YXY" secondAttribute="bottom" id="3ne-2k-Gix"/>
+                    <constraint firstItem="1Gd-h9-YXY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Bjb-wI-1g0"/>
+                    <constraint firstAttribute="trailing" secondItem="1Gd-h9-YXY" secondAttribute="trailing" id="aNx-B8-K2g"/>
+                    <constraint firstItem="1Gd-h9-YXY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="wFn-u8-kFo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outletCollection property="ofertaImagens" destination="CnZ-rs-rms" collectionClass="NSMutableArray" id="udd-VF-rOk"/>
+                <outletCollection property="ofertaImagens" destination="VXr-Jt-fZ3" collectionClass="NSMutableArray" id="2iS-uZ-ctw"/>
+                <outletCollection property="ofertaTitles" destination="X3f-5g-E0w" collectionClass="NSMutableArray" id="7Mx-Vf-Uh7"/>
+                <outletCollection property="ofertaTitles" destination="iCw-f4-4by" collectionClass="NSMutableArray" id="I08-3i-rvk"/>
+                <outletCollection property="valorConDesconto" destination="RQh-2P-9Wh" collectionClass="NSMutableArray" id="q8C-7c-JBR"/>
+                <outletCollection property="valorConDesconto" destination="FpH-JQ-6Nj" collectionClass="NSMutableArray" id="iRB-Fw-zTi"/>
+                <outletCollection property="ofertSubtitle" destination="Za1-4W-JrD" collectionClass="NSMutableArray" id="nj1-Jn-o87"/>
+                <outletCollection property="ofertSubtitle" destination="9ga-JU-zDY" collectionClass="NSMutableArray" id="rne-FR-nTZ"/>
+                <outletCollection property="valorSemDesconto" destination="Ev5-Bs-oBy" collectionClass="NSMutableArray" id="wEK-Da-xyu"/>
+                <outletCollection property="valorSemDesconto" destination="1cU-Rz-bo4" collectionClass="NSMutableArray" id="mM2-nL-c19"/>
+                <outletCollection property="fundoParaSombra" destination="Da1-dm-Kti" collectionClass="NSMutableArray" id="15U-Nb-GXO"/>
+                <outletCollection property="fundoParaSombra" destination="Emr-d1-ieG" collectionClass="NSMutableArray" id="aVM-cx-XB6"/>
+            </connections>
+            <point key="canvasLocation" x="25.954198473282442" y="-11.619718309859156"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
